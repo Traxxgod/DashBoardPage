@@ -1,0 +1,36 @@
+.list{
+    margin-top: 60px;
+}
+
+.nav{
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+}
+
+.nav-item{
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+}
+
+.nav-item :hover{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.dashboard{
+    margin-left: 40px;
+    font-weight: 700;
+    color: white;
+    margin-top: 45px;
+}
+
+
