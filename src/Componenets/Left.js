@@ -8,6 +8,7 @@ import SettingsInputSvideoIcon from '@mui/icons-material/SettingsInputSvideo';
 import QuizIcon from '@mui/icons-material/Quiz';
 import CallToActionIcon from '@mui/icons-material/CallToAction';
 import ArrowRightIcon from '@mui/icons-material/NavigateNext';
+import SwitchAccountIcon from '@mui/icons-material/SwitchAccount';
 
 export default function Left() {
   return (
@@ -48,6 +49,14 @@ export default function Left() {
                 </li>
                 
             </ul>
+        </div>
+
+        <div className="profile">
+          <SwitchAccountIcon style={{fontSize:"50px"}}/>
+          <div>
+            Prakhar Shukla
+            <div>Project Manager</div>
+          </div>
         </div>
       </nav>
     </div>

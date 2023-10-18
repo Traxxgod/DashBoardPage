@@ -108,30 +108,31 @@ export default function Right() {
             <div className="item">
 
               <div className="lowerTable">
-                <div className="name">
-                  <div>
-                    <img src={image} alt="..." style={{height: "50px", borderRadius: "5px"}} />
+                  <div className="name">
+                    <div>
+                      <img src={image} alt="..." style={{height: "50px", borderRadius: "5px"}} />
+                    </div>
+                    <div className="productDetails">
+                      <div className="title fw-bolder"> Abstract 3D</div>
+                      <div className="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.!</div>
+                    </div>
                   </div>
-                  <div className="productDetails">
-                    <div className="title fw-bolder">Abstract 3D</div>
-                    <div className="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.!</div>
-                  </div>
-                </div>
+                
                 <div className="stock">32 in stock</div>
                 <div className="price">$ 45.99</div>
                 <div className="sales">20</div>
               </div>
 
               <div className="lowerTable">
-                <div className="name">
-                  <div>
-                    <img src={img} alt="..." style={{height: "50px", borderRadius: "5px"}} />
+                  <div className="name">
+                    <div>
+                      <img src={img} alt="..." style={{height: "52px", width: "99px", borderRadius: "5px"}} />
+                    </div>
+                    <div className="productDetails">
+                      <div className="title fw-bolder">Abstract 3D</div>
+                      <div className="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.!</div>
+                    </div>
                   </div>
-                  <div className="productDetails">
-                    <div className="title fw-bolder">Abstract 3D</div>
-                    <div className="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.!</div>
-                  </div>
-                </div>
                 <div className="stock">32 in stock</div>
                 <div className="price">$ 45.99</div>
                 <div className="sales">20</div>
